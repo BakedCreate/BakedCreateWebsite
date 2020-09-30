@@ -146,7 +146,9 @@ h4{
 .col-4 p{
     font-size: 14px;
 }
-
+.col-4 h4{
+    text-align: left;
+}
 .col-4:hover{
     transform: translateY(-5px);
 }
@@ -298,9 +300,6 @@ table{
 .cart-info{
     display: flex;
     flex-wrap: wrap;
-}
-.cart-info img{
-    
 }
 th{
     text-align: left;
